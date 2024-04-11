@@ -1,0 +1,188 @@
+*{
+    box-sizing: border-box;
+}
+
+html{scroll-behavior: smooth;}
+body{
+    margin: 0;
+}
+
+h1{font-size: 3.5em;}
+h2{font-size: 2.7em;}
+h3{font-size: 2em;}
+p{font-size: 1.25em;}
+ul{list-style: none;}
+
+#hero button{
+    font-size: 1.75em; ;
+}
+button{font-size: 1.4em;
+font-weight: bold;
+padding: 10px 25px;
+border-radius: 8px;
+border: 1px solid rgba(0,0,0,0.5);
+box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+color:orangered;
+background-color: yellow;
+}
+button:hover{background-color:rgb(167, 167, 50) ;}
+.container{
+    max-width: 1400px ;
+    margin: auto;
+}
+
+header{
+    background-image: linear-gradient(0deg,rgba(255, 221, 0, 0.5),rgba(0,0,0,0.5)), url(https://pm1.aminoapps.com/6358/f8598de660adede3bf3a456161ca991ab4b87aa4_hq.jpg);
+    background-attachment: scroll ;
+    background-size: cover;
+    background-color: darkgray;
+    background-repeat: repeat-x;
+    background-position: center center;
+}
+.color-acento{color:blue}
+.ga1{color: blue;}
+.ga2{color:yellow}
+.ga3{color:red}
+
+header .logo{
+    margin: 0;
+    padding: 25px 30px;
+    font-weight: bold;
+    color:red;
+    font-size: 2.7em;
+    text-shadow: 2px 2px 4px blue;    
+}
+header .container{
+display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+
+header nav{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 25px;
+    
+}
+
+header a{
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    text-shadow: 4px 4px 7px rgb(0, 255, 38);
+    font-size: 2em;
+}
+
+
+header a:hover{color: red;}
+
+#hero{
+    display: flex;          
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    color: white;
+    background-image: 
+    linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(https://i.pinimg.com/736x/da/0f/f4/da0ff44cf03d43ba14774e2638e4f7f3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+}
+#hero h1{
+    color:white
+}
+
+#criptomonedas .container{
+    text-align: center;
+    padding: 200px 12px;
+}
+
+#pagoconcuerpo{
+    background-color: rgb(30,30,30);
+    color: white;
+    text-align: center;
+}
+#pagoconcuerpo .container{
+    padding: 100px 12px;
+}
+#pagoconcuerpo p{
+    display: none;
+}
+#pagoconcuerpo h2{
+    margin-top: 0;
+    font-size: 3.2em;
+}
+#pagoconcuerpo .aea{
+    background-position: center center;
+    background-size: cover;
+    padding: 50px 0px;
+    margin: 12px;
+    border-radius: 15px;
+}
+.aea:first-child{
+    background-image: 
+    linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(https://img.freepik.com/vector-premium/dibujos-animados-organos-cuerpo-humano-saludable-digestivo-circulatorio-iconos-anatomia-organo-conjunto-historia-clinica_102902-745.jpg);
+ 
+}
+.aea:nth-child(2){
+    background-image:
+    linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(https://www.shutterstock.com/image-vector/female-buttocks-line-icon-sporty-600nw-2124792434.jpg);
+ 
+}
+#Beneficiospalosnogays .container{
+    text-align: center;
+padding: 100px 10px
+;}
+#Beneficiospalosnogays li{
+    margin: 16px 0px;
+    font-weight: bold;
+}
+#chamos{
+    display: flex;          
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    background-color: black;
+    color:white;
+    height:80vh}
+    
+#chamos button{font-size: 5vw;}
+#chamos h2{
+    font-size: 15vw;
+}    
+footer{
+    background-color:rgb(230,230,230)
+}
+footer p{
+    margin:0;
+    color: rgba(100,100,100);
+    padding: 12px;
+
+}
+footer .container{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+@media (min-width: 720px){
+    header{
+        position: fixed;
+        width: 100%;
+    }
+    header .container{
+        flex-direction: row;
+    }
+    header nav{
+        flex-direction: row;
+        padding-bottom: 0;
+        padding-right: 20px}
+}
+
