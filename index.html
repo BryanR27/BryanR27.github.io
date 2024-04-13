@@ -4,14 +4,7 @@
     <title>Goku te necesita</title>
     <link rel="stylesheet" href="estilos.css">
 </head>
-<audio id="music123" autoplay controls loop>
-    <source src="music1.mp3" type="audio/mpeg">
-  </audio>
-<script>
-    function Playaudio() {document.getelementbyID("music123").play;}
-    
-</script>    
-<body onclick=Playaudio()>
+<body onload=Playaudio()>
     <header>
         <div class="container">
             <p class="logo">GOKU HA CAÍDO EN EL GOTA A GOTA CON LOS CHAMOS</p><p class="logo">¡NECESITA TU AYUDA!</p>
@@ -72,6 +65,13 @@
     <h2>¡¡Se lo están cachando!!</h2>
     <button>¡Sálvalo Ahora!</button>
    </section>
+    <audio id="music123" autoplay controls loop>
+    <source src="music1.mp3" type="audio/mpeg">
+  </audio>
+<script>
+    function Playaudio() {document.getelementbyID("music123").play;}
+    
+</script>   
    <footer>
        <div class="container">
             <p>&copy; GokuNeedYourHelp</p>
